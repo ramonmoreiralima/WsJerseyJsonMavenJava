@@ -44,6 +44,8 @@ public class RestUser {
              return "<HTML><BODY>" + user.getUserName() +
              "</BODY></HTML>";
        }
+       
+       
 
      @GET
   	 @Path("/json/{id}")
